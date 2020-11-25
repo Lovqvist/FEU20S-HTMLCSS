@@ -1,0 +1,9 @@
+log.txt
+#Ignorerar en specifik fil
+
+#  *.txt
+#Tar bort alla text filer
+
+/mappnamn
+#Ignorerar en hel folder
+
