@@ -9,16 +9,41 @@ body {
     background-color: #eee;
     color: #222;
 }
+a {
+    text-decoration: none;
+    color: chocolate;
+}
+
 /* Hjälpklasser */
 .container {
     width: 80%;
     margin: auto;
 }
-
-a {
-    text-decoration: none;
-    color: chocolate;
+.btn {
+    padding: 0.7rem 1.5rem;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease;
 }
+
+.btn-jockes {
+    background-color: #922727;
+    color: #dfd898;
+}
+.btn-jockes:hover {
+    background-color: #352c2c4d;
+    color: dodgerblue;
+}
+.btn.jockes:active {
+    background-color: #2ad140;
+}
+.btn-primary {
+    background-color: #ca118c;
+    color: #dfd898;
+}
+
 
 
 .card-1 {
@@ -81,8 +106,7 @@ a {
     color: #dfd898;
     cursor: pointer;
     outline: none;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
-.sandras-knapp:hover {
-    background-color: #352c2c4d;
-    color: dodgerblue;
+
+}
