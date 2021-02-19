@@ -3,45 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bygg din nya hemsida med oss på Hemsida.nu. Du behöver ingen tidigare erfarenhet av Html.. Komigen, det blir kul!">
-    <meta name="Keywords" content="lektion 1, ec, utbildning, html, css">
+    <meta name="description" content="Bygg din nya hemsida med oss på Hemsida.nu Du behöver ingen tidigare erfarenhet av HTML.. Komigen, det blir kul!">
+    <meta name="keywords" content="lektion 1, ec, utbildning, html, css">
     <meta name="author" content="EC-utbildning">
-
     <title>Lektion 1 - genomgång av element</title>
 
     <style>
         .border {
-            border: 1px solid blueviolet;
+            border: 1px solid black;
         }
         .custom-class {
-            background: white ;
+            background: black;
         }
 
-        /*Medium devices (tablets,768px and up)  */
+        /* Medium devices (tablets, 768px and up) */
         @media(min-width: 768px) {
             .custom-class {
-                background: chartreuse;
+                background: green;
             }
         }
 
-        /* Large devices (desktops, 992px and up) */
+        /* Large Devices (desktops, 992px and up) */
         @media(min-width: 992px) {
-                .custom-class {
-                    background: darkblue;
-                }
+            .custom-class {
+                background: blue;
+            }
         }
 
         /* Extra large devices (large desktops, 1200px and up) */
         @media(min-width: 1200px) {
-                .custom-class {
-                    background: darkkhaki;
-                }
+            .custom-class {
+                background: yellow;
+            }
         }
+
+        /* Extra extra large devices ( extra large desktops, 1600px and up) */
+        @media(min-width: 1600px) {
+            .custom-class {
+                background: orange;
+            }
+        }
+
+
+
 
     </style>
 </head>
 <body class="custom-class">
-
+    
     <!-- BLOCK ELEMENT -->
     <section class="border">Section</section>
     <header class="border">Header</header>
@@ -51,37 +60,34 @@
     <aside class="border">Aside</aside>
     <div class="border">Div</div>
     <p class="border">Paragraf</p>
-    <p class="border">Paragraf</p>
 
-    <h1 class="border">Rubrik H1</h1>
-    <h2 class="border">Rubrik H2</h2>
-    <h3 class="border">Rubrik H3</h3>
-    <h4 class="border">Rubrik H4</h4>
-    <h5 class="border">Rubrik H5</h5>
-    <h6 class="border">Rubrik H6</h6>
+    <h1 class="border">H1</h1>
+    <h2 class="border">h2</h2>
+    <h3 class="border">h3</h3>
+    <h4 class="border">h4</h4>
+    <h5 class="border">h5</h5>
+    <h6 class="border">h6</h6>
 
     <hr>
-    <!-- Lång rak linje -->
-    <br> 
-    <!-- Radbrytning -->
-  
+    <br>
+
     <!-- INLINE ELEMENT -->
-    <I class="border">Italic</I>
-    <em class="border">Emphasize</em>
-    <b class="border">Bold</b>
+    <i class="border">italic</i>
+    <em class="border">emphasize</em>
+    <b class="border">bold</b>
     <strong class="border">Strong</strong>
-    <u class="border">Underline</u>
-    <ins class="border">Inserted</ins>
-    <span class="border">Span</span>
-    <small class="border">Small</small>
-    <del class="border">Del</del>
-    <s class="border">S</s>
+    <u class="border">underline</u>
+    <ins class="border">inserted</ins>
+    <span class="border">span</span>
+    <small class="border">small</small>
+    <del class="border">del</del>
+    <s class="border">s</s>
 
-    <a class="border" href="about.html" target="_blank">En länk</a> 
-
-    <!-- target="_blank" = öppnar länken i en ny flik -->
+    <a class="border" href="https://www.google.com" target="_blank">en länk</a>
+    
 
     <!-- LISTOR -->
+
     <ul class="border">
         <li>unordered list item</li>
         <li class="border">unordered list item</li>
@@ -90,7 +96,7 @@
 
     <ol class="border">
         <li>ordered list item</li>
-        <li class="border">ordered list item</li>
+        <li>ordered list item</li>
         <li>ordered list item</li>
     </ol>
 
@@ -104,49 +110,67 @@
         </thead>
         <tbody>
             <tr>
-                <td>Column</td>
-                <td>Column</td>
+                <td>column</td>
+                <td>column</td>
             </tr>
             <tr>
-                <td>Column</td>
-                <td>Column</td>
+                <td>column</td>
+                <td>column</td>
             </tr>
         </tbody>
     </table>
-
     <br>
     <br>
 
-   <!-- BILDER källa: pexels.com -->
+    <!-- BILDER källa: pexels.com -->
     <img src="enbildsomintefinns.png" alt="Beskrivande text">
-    
-
-    <div class= "border">
-        <img width="200px" src="https://images.pexels.com/photos/5074821/pexels-photo-5074821.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Trappa">
+    <div class="border">
+        <img width="200px" src="https://images.pexels.com/photos/4274984/pexels-photo-4274984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
     </div>
+    <img height="200px" src="img/pexels-vividd-4274984.jpg" alt="">
 
-    <img height="200px" src="Img/pexels-rachel-claire-4993104.jpg" alt="">
-   
 
-<!-- En bra struktur -->
-<div>
+    <!-- Bra struktur! -->
     <div>
         <div>
-            <p>hej</p>
-        </div>
-        <div>
-            <p>Hej Hej</p>
+            <div>
+                <p>hej</p>
+            </div>
+            <div>
+                <p>Hej hej</p>
+            </div>
         </div>
     </div>
-</div>
 
 
 
+    <!--  inte en bra struktur  -->
+    <div>
+    <div>
+    <div>
+    <p>hej</p>
+    </div>
+    <div>
+    <p>Hej hej</p>
+    </div>
+    </div>
+    </div>
 
 
 
+    <!-- vad håller du på med?! struktur -->
+    <div>
+    <div>
+                <div>
+            <p>hej</p>
+    </div>
+    <div>
+                    <p>Hej hej</p>
+    </div>
+                </div>
+        </div>
 
 
-
+    <div style="height: 500px;"></div>
 </body>
 </html>

@@ -1,0 +1,75 @@
+/* .navbar .container .collapse .active {
+  color: orange; */
+  /* border-bottom: 3px solid orange; */
+  /* text-decoration: underline; */
+  /* position: relative;
+}
+.navbar .container .collapse .active::after {
+  content: "";
+  height: 3px;
+  background: orange;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0.5rem;
+  right: 1.3rem;
+} */
+.nav-link {
+  color: orange;
+  /* border-bottom: 3px solid orange; */
+  /* text-decoration: underline; */
+  position: relative;
+}
+.nav-link:hover {
+  color: orange !important;
+}
+.nav-link:hover::before {
+  content: "";
+  height: 3px;
+  background: orange;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0.5rem;
+  right: 1.3rem;
+}
+/* .streck {
+  height: 3px;
+  background: orange;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0.5rem;
+  right: 1.3rem;
+} */
+
+.element {
+  background: orange;
+  display: inline-block;
+  /* height: 20px; */
+  /* width: 100px; */
+  margin: 3rem auto;
+  position: relative;
+}
+
+.element::before {
+  content: "Hej";
+  background: red;
+  /* position: absolute;
+  left: 0;
+  bottom: -3rem; */
+}
+.element::after {
+  content: 'Då';
+  background: green;
+  /* position: absolute;
+  left: 0;
+  bottom: -2.5rem; */
+}
+.phone {
+  background: url('../img/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -11rem;
+
+}

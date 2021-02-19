@@ -1,0 +1,47 @@
+.header-bg {
+  background: url('images/header-background-01.png');
+  background-repeat: no-repeat;
+}
+.mobile img {
+  width: 100%;
+}
+.btn-primary {
+  background: #0f6e52;
+  border: 1px solid #0f6e52;
+}
+.btn-primary:hover {
+  background: #0c553f;
+  border: 1px solid #0c553f;
+}
+.btn-primary:active {
+  background: #0c553f !important;
+  border: 1px solid #0c553f !important;
+  box-shadow: none;
+}
+.btn-primary:focus {
+  background: #0c553f !important;
+  border: 1px solid #0c553f !important;
+  box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  background: #0c553f !important;
+  border: 1px solid #0c553f !important;
+  box-shadow: none;
+}
+.btn-green {
+  background: #0f6e52;
+  color: #fff;
+  border: 1px solid #0f6e52;
+}
+.btn-green:hover {
+  background: #0c553f;
+  color: #fff;
+  border: 1px solid #0c553f;
+}
+.custom-btn {
+  padding: 1rem 2rem;
+  outline: none;
+}
+.nav-link {
+  font-weight: 600;
+}

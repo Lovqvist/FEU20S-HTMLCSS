@@ -1,13 +1,11 @@
-:root{
-    --primary: rgb(41, 182, 182);
-    --secondary: rgb(151, 63, 36);
-}
+@import 'color.css';
+
 .bg-primary {
     background: var(--secondary) !important;
 }
 .box {
-    background-color: var(--secondary) !important;
-    border: 1px solid black;
+    background-color: var(--primary);
+    border: 1px solid #000;
     border-radius: 50%;
     width: 150px;
     height: 150px;
